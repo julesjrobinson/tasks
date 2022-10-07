@@ -1,0 +1,16 @@
+### Tasks Index
+GET http://localhost:3000/tasks
+Authorization: Bearer {{jwt}}
+### Tasks Create
+POST http://localhost:3000/tasks 
+Authorization: Bearer {{jwt}}
+Content-Type: 
+
+{
+  "name": "Dishes",
+  "description": "Wash the dishes, polish the glasses"
+}
+
+### Tasks Destroy
+DELETE 
+Authorization: Bearer {{jwt}}
